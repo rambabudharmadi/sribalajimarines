@@ -1,0 +1,30 @@
+<nav class="navbar">
+  <a routerLink="/">
+    <div class="logo-container">
+      <img
+        src="https://drive.google.com/uc?id=1oE0D-XHVrGivSGGqJSZ9KWoq4QE4n-Y2"
+        alt="sriBalajiMarines"
+      />
+      <div class="logo-text">
+        <div style="display: flex;">
+          <span class="sri">Sri</span>
+          <span class="balaji">Balaji</span>
+        </div>
+        <div class="marines">&nbsp;Marines</div>
+      </div>
+    </div>
+  </a>
+  <div style="display: flex; flex-direction: column;align-items: flex-end; ">
+    <div class="container" (click)="openNavLinks()">
+      <div class="one"></div>
+      <div class="two"></div>
+      <div class="three"></div>
+    </div>
+    <ul [ngClass]="navLinksClass == 'nav-links' ? 'nav-links' : 'hide'">
+      <li><a routerLink="/">Home</a></li>
+      <li><a routerLink="/">About</a></li>
+      <li><a routerLink="/">Contact</a></li>
+      <li><a routerLink="/">Projects</a></li>
+    </ul>
+  </div>
+</nav>
