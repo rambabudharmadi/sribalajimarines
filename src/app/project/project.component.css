@@ -1,25 +1,3 @@
-.component-text {
-  color: #1E2D3B;
-  font: normal normal normal 55px/1.4em avenir-lt-w01_85-heavy1475544,sans-serif;
-  font-size: 2.75em !important;
-  margin: 0.5em 0em 0em 0.5em;
-  width: 280px;
-  pointer-events: none;
-  font-weight: 700;
-}
-
-.component-styling {
-    box-sizing: border-box;
-    border-top: 10px solid rgba(237, 205, 31, 1);
-    transform-origin: center 5px;
-    width: 8em;
-    margin: 0em 0em 0.5em 1.6em;
-}
-
-.component-header {
-    margin: 0.1em;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -31,8 +9,8 @@ div.gallery img {
 
 .projects {
   padding: 0.5em 2em;
-  float: left;
-  width: 24.99999%;
+  text-align: left;
+  min-width: 49.99999%;
 }
 
 @media only screen and (max-width: 750px) {
@@ -48,3 +26,13 @@ div.gallery img {
   }
 }
 
+.right_align {
+  text-align: right;
+  padding: 0px 2.15em;
+}
+
+.project_dropdown {
+  height: 3em;
+  width: auto;
+  border: 1px solid #f17221;
+}
