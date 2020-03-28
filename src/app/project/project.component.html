@@ -1,0 +1,34 @@
+<app-title-card [header]="header"></app-title-card>
+
+<div class = "right_align">
+  <select class = "project_dropdown" (change)="projects">
+    <option value = "0">OnGoing Projects</option>
+    <option value = "1">Past Projects</option>
+    <option value = "2">Upcoming Projects</option>
+    <option value = "3">All</option>
+    <!--<option *ngFor="let project of projects" value={{project}}>
+      {{project}}
+    </option>-->
+  </select>
+</div>
+
+<div id = "projects" class = "projects">
+  <div class = "gallery">
+    <a>
+      <img src="assets/ship_sea.png" alt="image" width="350" height="350">
+    </a>
+  </div>
+</div>
+
+ <!-- <div class="projects">
+    <div class="gallery">
+      <a>
+        <img src="assets/ship_building.png" alt="Cinque Terre" width="350" height="350">
+      </a>
+    </div>
+  </div>-->
+
+
+<div class = "right_align">
+  <a routerLink="projects" routerLinkActive="active">more...</a>
+</div>

@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.projects {
+  padding: 0.5em 2em;
+  text-align: left;
+  min-width: 49.99999%;
+}
+
+@media only screen and (max-width: 750px) {
+  .projects {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .projects {
+    width: 100%;
+  }
+}
+
+.right_align {
+  text-align: right;
+  padding: 0px 2.15em;
+}
+
+.project_dropdown {
+  height: 3em;
+  width: auto;
+  border: 1px solid #f17221;
+}

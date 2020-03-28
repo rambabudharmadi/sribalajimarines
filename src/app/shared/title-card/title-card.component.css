@@ -1,0 +1,41 @@
+.component-text {
+  color: #1E2D3B;
+  font-size: 2.75em !important;
+  margin: 0.5em 0em 0em 0.5em;
+  width: auto;
+  pointer-events: none;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.component-styling {
+  box-sizing: border-box;
+  border-top: 10px solid #f17221;;
+  transform-origin: center 5px;
+  width: 8em;
+  margin: 0em 0em 0.5em 1.6em;
+}
+
+.component-header {
+  margin: 0.1em;
+}
+
+@media only screen and (max-width: 750px) {
+  .component-text {
+    text-align: center;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .component-styling  {
+
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .component-text, .component-styling  {
+    text-align: left;
+  }
+}
